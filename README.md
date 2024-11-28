@@ -12,3 +12,6 @@ Open a terminal in the directory containing the Dockerfile and hello_world.py, t
 
 ## Run the Docker Container
     docker run python-hello-world
+
+## Run the Docker Container in interactive mode
+    docker run -it python-hello-world bash
