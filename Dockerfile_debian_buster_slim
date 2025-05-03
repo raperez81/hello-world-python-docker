@@ -1,0 +1,5 @@
+# Use a minimal image based on Debian
+FROM debian:buster-slim
+
+# Command to print "Hello world" when the container runs
+CMD ["echo", "Hello world"]
